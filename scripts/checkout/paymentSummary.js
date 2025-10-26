@@ -1,6 +1,6 @@
-import { cart } from "../../data/cart.js";
-import { getProduct } from "../../data/products.js";
-import { deliveryOptions, getDeliveryOption } from "../../data/deliveryOptions.js";
+import { cart } from "../../Data/cart.js";
+import { getProduct } from "../../Data/products.js";
+import { deliveryOptions, getDeliveryOption } from "../../Data/deliveryOptions.js";
 import {formatCurrency} from '../../utils/money.js'
 
 export function renderpaymentSummary(){
