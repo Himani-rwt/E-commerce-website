@@ -1,5 +1,5 @@
-import { cart, addToCart } from "../data/cart.js";
-import { products } from "../data/products.js";
+import { cart, addToCart } from "../Data/cart.js";
+import { products } from "../Data/products.js";
 import { formatCurrency } from "../utils/money.js";
 
 // --- grab product by id from URL
@@ -21,8 +21,8 @@ if (product) {
     <div class="product-gallery">
       <div class="main-image">
         <img src="${product.product_gallery_img[0]}" alt="${product.name}">
-        <button class="prev-btn mobile-only"><img src="./images/icon-previous.svg" alt="Previous"></button>
-        <button class="next-btn mobile-only"><img src="./images/icon-next.svg" alt="Next"></button>
+        <button class="prev-btn mobile-only"><img src="./Images/icon-previous.svg" alt="Previous"></button>
+        <button class="next-btn mobile-only"><img src="./Images/icon-next.svg" alt="Next"></button>
       </div>
       <div class="thumbnails desktop-only">
         ${thumbs}
