@@ -1,5 +1,5 @@
 // order.js
-import { cart } from "../data/cart.js";
+import { cart } from "../Data/cart.js";
 import { getCartItemDetails } from "../scripts/helper/CartItemDetails.js";
 import { formatCurrency } from "../utils/money.js";
 
