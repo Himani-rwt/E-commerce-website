@@ -1,5 +1,5 @@
 // tracking.js
-import { cart } from "../data/cart.js";
+import { cart } from "../Data/cart.js";
 import { getCartItemDetails } from "../scripts/helper/CartItemDetails.js";
 
 // 1. Get productId from query string
