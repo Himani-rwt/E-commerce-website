@@ -1,6 +1,6 @@
 // helpers/cartItemDetails.js
-import { getProduct } from "../../data/products.js";
-import { getDeliveryOption } from "../../data/deliveryOptions.js";
+import { getProduct } from "../../Data/products.js";
+import { getDeliveryOption } from "../../Data/deliveryOptions.js";
 import dayjs from 'https://unpkg.com/supersimpledev@8.5.0/dayjs/esm/index.js';
 
 export function getCartItemDetails(cartItem) {
